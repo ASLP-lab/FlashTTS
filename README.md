@@ -1,6 +1,15 @@
 # FlashTTS: Fast Streaming TTS with MTP Acceleration and X-pred Mean Flow Distillation
 
+<div align="center">
+
+[![Paper](https://img.shields.io/badge/arXiv-PAPER_ID-b31b1b.svg)](https://arxiv.org/pdf/PAPER_ID) 
+[![Demo Page](https://img.shields.io/badge/Demo-Audio%20Samples-green)](https://github.com/ASLP-lab/FlashTTS)
+<!-- [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-yellow)](https://huggingface.co/ASLP-lab/FlashTTS)  -->
+</div>
+
 **FlashTTS** is an open-source, low-latency streaming TTS framework that addresses these limitations. It introduces a **lagged multi-track architecture** that natively processes streaming text and speech inputs, eliminating sentence-level buffering. Acoustic generation is accelerated by integrating **parallel Multi-Token Prediction (MTP)** with an **X-pred mean flow matching** decoder, achieving high-fidelity token-to-mel in exactly **two function evaluations (2-NFE)**. By jointly optimizing input processing and decoding efficiency, FlashTTS offers a practical foundation for real-time speech dialogue systems. Experiments show substantially reduced **First-Packet Latency (325ms)** compared to robust streaming baselines, while preserving **zero-shot voice cloning** and **multi-lingual intelligibility**. Model code and checkpoints are released as open source.
+
+
 
 ## 🎯 Key Features
 
