@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Paper](https://img.shields.io/badge/arXiv-PAPER-b31b1b.svg)](https://arxiv.org/abs/2606.09141) 
+[![Paper](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://arxiv.org/abs/2606.09141) 
 [![Demo Page](https://img.shields.io/badge/Demo%20Samples-green)](https://github.com/ASLP-lab/FlashTTS)
 <!-- [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-yellow)](https://huggingface.co/ASLP-lab/FlashTTS)  -->
 </div>
